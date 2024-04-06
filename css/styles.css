@@ -156,6 +156,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 
 .service-title {
@@ -167,7 +168,7 @@ img {
   width: 496px;
   margin: 0 auto;
   min-width: 496px;
-  max-width: 1440px;
+
 }
 
 .service-button {
