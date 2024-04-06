@@ -156,7 +156,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 1440px;
 }
 
 .service-title {
@@ -167,7 +166,8 @@ img {
   text-align: center;
   width: 496px;
   margin: 0 auto;
-  max-width: 496px;
+  min-width: 496px;
+  max-width: 1440px;
 }
 
 .service-button {
@@ -185,7 +185,7 @@ img {
   margin-top: 48px;
   border: none;
   min-width: 169px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-button:hover {
@@ -405,6 +405,7 @@ img {
 .portfolio-image-wrap {
   position: relative;
   overflow: hidden;
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .image-text {
@@ -454,8 +455,8 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
-  gap: 120px;
-  align-items: center;
+  margin-right: 120px;
+  align-items: baseline;
   justify-content: center;
 }
 
