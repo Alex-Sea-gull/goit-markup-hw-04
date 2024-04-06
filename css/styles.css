@@ -147,9 +147,7 @@ img {
 /*------------------------------*/
 /*-----------SERVICE BUTTON-------------*/
 
-.button-container {
-  max-width: 1440px;
-}
+.button-container {}
 
 .service {
   background-color: #2e2f42;
@@ -169,6 +167,7 @@ img {
   width: 496px;
   margin: 0 auto;
   min-width: 496px;
+  max-width: 1440px;
 }
 
 .service-button {
@@ -390,14 +389,18 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 0;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 
 .portfolio-item {
   color: #ffffff;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover .image-text {
