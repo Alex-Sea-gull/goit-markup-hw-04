@@ -157,6 +157,7 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .service-title {
@@ -461,13 +462,18 @@ img {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+
+}
+
+.footer-container {
   display: flex;
-  margin-right: 120px;
   align-items: baseline;
   justify-content: center;
 }
 
-.logo-wrap {}
+.logo-wrap {
+  margin-right: 120px;
+}
 
 .footer-logo {
   display: inline-block;
