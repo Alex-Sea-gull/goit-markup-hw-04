@@ -539,5 +539,9 @@ img {
 }
 
 .soc-icon-footer-link:hover {
-  background-color: aquamarine;
+  background-color: #31d0aa;
+}
+
+.soc-icon-footer-link:focus {
+  background-color: #31d0aa;
 }
