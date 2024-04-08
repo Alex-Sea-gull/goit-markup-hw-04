@@ -335,7 +335,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 .soc-icon-item {
@@ -468,7 +468,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: center;
 }
 
 .logo-wrap {
@@ -500,10 +499,7 @@ img {
   width: 264px;
 }
 
-.icon-footer-wrap {
-  width: 208px;
-  height: 80px;
-}
+.icon-footer-wrap {}
 
 .title-icon-footer {
   font-weight: 500;
